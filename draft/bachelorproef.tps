@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1562
-NormalPos.bottom=535
+NormalPos.right=1066
+NormalPos.bottom=548
 Class=LaTeXView
 Document=bachelorproef.tex
 
 [Frame0_View0,0]
-TopLine=187
-Cursor=8553
+TopLine=267
+Cursor=10328
 
 [SessionInfo]
 FrameCount=1

@@ -1,14 +1,22 @@
 \select@language {dutch}
-\contentsline {chapter}{\numberline {1}Inleiding}{4}{chapter.1}
-\contentsline {section}{\numberline {1.1}Probleemstelling en Onderzoeksvragen}{4}{section.1.1}
-\contentsline {chapter}{\numberline {2}Methodologie}{6}{chapter.2}
-\contentsline {chapter}{\numberline {3}Wat is een adblocker}{7}{chapter.3}
-\contentsline {chapter}{\numberline {4}Hoe werkt een adblocker}{8}{chapter.4}
-\contentsline {chapter}{\numberline {5}Gebruik van adblockers}{9}{chapter.5}
-\contentsline {section}{\numberline {5.1}Wie gebruikt ze}{9}{section.5.1}
-\contentsline {section}{\numberline {5.2}Redenen voor gebruik adblocker}{9}{section.5.2}
-\contentsline {chapter}{\numberline {6}Huidige impact van adblockers}{10}{chapter.6}
-\contentsline {chapter}{\numberline {7}Hoe wapenen bedrijven zich tegen adblockers}{11}{chapter.7}
-\contentsline {chapter}{\numberline {8}Gevolgen op lange termijn}{12}{chapter.8}
-\contentsline {chapter}{\numberline {9}Hoe zien de makers van adblockers de toekomst}{13}{chapter.9}
-\contentsline {chapter}{\numberline {10}Conclusie}{14}{chapter.10}
+\contentsline {chapter}{\numberline {1}Inleiding}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}Probleemstelling en Onderzoeksvragen}{5}{section.1.1}
+\contentsline {chapter}{\numberline {2}Methodologie}{7}{chapter.2}
+\contentsline {chapter}{\numberline {3}Wat is een adblocker}{8}{chapter.3}
+\contentsline {section}{\numberline {3.1}Adblock Plus}{8}{section.3.1}
+\contentsline {section}{\numberline {3.2}AdBlock}{9}{section.3.2}
+\contentsline {section}{\numberline {3.3}\IeC {\textmu }Block Origin}{9}{section.3.3}
+\contentsline {chapter}{\numberline {4}Hoe werkt een adblocker}{10}{chapter.4}
+\contentsline {section}{\numberline {4.1}Filter Rules}{10}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Basis regels}{10}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Uitzonderingen}{11}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Regels voor element hidding}{11}{section.4.2}
+\contentsline {section}{\numberline {4.3}Request blocking}{11}{section.4.3}
+\contentsline {chapter}{\numberline {5}Gebruik van adblockers}{12}{chapter.5}
+\contentsline {section}{\numberline {5.1}Wie gebruikt ze}{12}{section.5.1}
+\contentsline {section}{\numberline {5.2}Redenen voor gebruik adblocker}{12}{section.5.2}
+\contentsline {chapter}{\numberline {6}Huidige impact van adblockers}{13}{chapter.6}
+\contentsline {chapter}{\numberline {7}Hoe wapenen bedrijven zich tegen adblockers}{14}{chapter.7}
+\contentsline {chapter}{\numberline {8}Gevolgen op lange termijn}{15}{chapter.8}
+\contentsline {chapter}{\numberline {9}Hoe zien de makers van adblockers de toekomst}{16}{chapter.9}
+\contentsline {chapter}{\numberline {10}Conclusie}{17}{chapter.10}

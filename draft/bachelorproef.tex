@@ -37,7 +37,26 @@
 \usepackage{lmodern}
 \usepackage{textcomp}
 
+
 \usepackage{lipsum}          % Voor vultekst (lorem ipsum)
+
+
+\usepackage{glossaries}
+\makenoidxglossaries
+
+\newglossaryentry{tracker}
+{
+  name=tracker,
+  description={Een soort van cookie waarbij een logboek van de online activiteiten van een gebruiker worden gekoppeld aan zijn Internet Protocol(IP) adres. De tracker stuurt deze informatie door naar een externe database voor analyse. Samen met gegevens van miljoenen anderen worden die gegevens dan gebruikt voor bijvoorbeeld marketing analyse. Deze tracker blijft werken ook al heeft men de site waar de tracker gedownload werd  al lang verlaten.  },
+	plural={trackers},
+}
+\newglossaryentry{cross-site request}
+{
+  name=cross-site request,
+  description={Een cross-site request is een request naar een volledig andere webpagina, die de browser in opdracht van een webpagina uitvoerd. },
+	plural={cross-site requests}
+}
+
 
 %%---------- Layout ------------------------------------------------------
 
@@ -191,6 +210,7 @@
 
 \tableofcontents
 
+\printnoidxglossaries
 % Als je een lijst van afkortingen of termen wil toevoegen, dan hoort die
 % hier thuis. Gebruik bijvoorbeeld de ``glossaries'' package.
 
@@ -251,10 +271,41 @@ Het doel van het onderzoek is enerzijds inzicht te krijgen in de werking van adb
 
 \chapter{Wat is een adblocker}
 \label{ch:Wat is een adblocker}
-De term ad blocker is de overkoepelende term voor alle soorten software die advertenties verwijderen op een webpagina. Het blokkeren van advertenties zorgt niet alleen voor dat de gebruiker een aangenamere ervaring heeft. Een ad blocker zorgt er ook voor dat webpagina's sneller geladen worden. Doordat reclame wordt geblokkeerd zullen reclame bedrijven ook minder informatie over je ter beschikking hebben. Met als gevold dat de privacy beter wordt beschermd. Sommige ad blockers zoals Ghostery gaan nog verder en laten toe om trackers te blokkeren. Het blokkeren van trackers zorgt ervoor dat het moeilijker om gevolgd te worden wat opnieuw bijdraagt tot het beschermen van de privacy.
+De term ad blocker is de overkoepelende term voor alle soorten software die advertenties verwijderen op een webpagina. Naast het blokkeren van reclame hebben de meest gebruikte ad blockers zoals Adblock Plus en AdBlock nog andere functionaliteiten. Voorbeelden hiervan zijn het uitschakelen van tracking, en het blokkeren van Malware domeinen. Het blokkeren van advertenties zorgt niet alleen voor dat de gebruiker een aangenamere ervaring heeft. Een ad blocker zorgt er ook voor dat webpagina's sneller geladen worden end dat er minder bandbreedte wordt verbruikt. Doordat reclame wordt geblokkeerd zullen reclame bedrijven ook minder informatie over ad blocker gebruikers ter beschikking hebben. Met als gevold dat de privacy beter wordt beschermd. Door het uitschakelen van \glspl{tracker} gaan ad blockers nog een stap verder in het beschermen van de privacy van hun gebruikers.
+
+\section{Adblock Plus}
+\label{sec:Adblock Plus}
+Adblock Plus \footnote{\url{https://adblockplus.org/}} is gratis extensie voor Internet Explorer, Mozilla Firefox, Google Chrome, Opera en Safari. Eyeo GmbH is het bedrijf achter Adblock Plus. Over alle browsers heen is dit de meest gebruikte ad blocker met in totaal meer dan 50 miljoen gebruikers \footnote{\url{https://chrome.google.com/webstore/search/ad\%20block?utm_source=chrome-ntp-icon&_category=extensions}} \footnote{\url{https://addons.mozilla.org/nl/firefox/extensions/?sort=users}}. Anders dan andere ad blockers haalt Adblock Plus zijn inkomsten niet uit donaties. Met hun "`Acceptable ads program"' laten ze bedrijven betalen om hun advertenties op een witte lijst te plaatsen. 
+\section{AdBlock}
+\label{sec:AdBlock}
+Adblock Plus \footnote{\url{https://getadblock.com/}} is een gratis en opensource extensie voor Google Chrome en Safari. Het team achter AdBlock haalt zijn inkomsten volledig uit donaties. Met in totaal 40 miljoen gebruikers is dit de op een na grootste ad blocker.
+
+\section{µBlock Origin}
+\label{sec:uBlock Origin}%nog aanpassen
+µBlock Origin \footnote{\url{https://github.com/gorhill/uBlock/}} is ook een gratis en opensource extensie voor Google Chrome en Mozilla Firefox. µBlock werkt volledig zonder donaties. Benchmarks door µBlock zelf en \citep{PerformanceAB} tonen aan dat µBlock sneller werkt met een lagere belasting van de CPU. µBlock kan er ook voor zorgen dat scripts enkel uitgevoerd kunnen worden door vertrouwde sites. En het is ook mogelijk om \glspl{cross-site request} te blokkeren.
+
+
+%nog iets zeggen van native ad-blocking en adblocking op smartphones, door opera
 
 \chapter{Hoe werkt een adblocker}
 \label{ch:Hoe werkt een adblocker}
+Ad blockers zoals AdBlock en Adblock Plus hebben op zichzelf geen functionaliteit, ze moeten verteld worden wat geblokkeerd moet worden. Dit wordt mogelijk gemaakt door externe filters toe te voegen. Filters zijn in wezen een uitgebreide set van regels die een ad blocker vertellen welke elementen geblokkeerd moeten worden. De meest gebruikte filter is die van EasyList\footnote{\url{https://easylist.adblockplus.org/nl/}}. Alle eerder vernoemde ad blockers gebruiken als basis een filter van EasyList. Deze filters zijn deels regio gebonden, een Nederlandstalige filter zal een grotere focus hebben op Nederlandse (en ook Vlaamse) domeinen. Filter zijn regels tekst die bepalen welke adressen niet mogen worden geladen of welke HTML DOM Elementen niet mogen worden getoond.
+
+\section{Filter Rules}
+\label{sec:Filter Rules}
+\subsection{Basis regels}
+\label{sec Basis regels}
+De meest eenvoudige filter die kan gedefinieerd kan worden is bijvoorbeeld voor deze reclameblok \texttt{http://voorbeeld.com/ads/banner123.jpg}. Je kan deze regel al eenvoudig beter maken door alle banners te blokkeren \texttt{http://voorbeeld.com/ads/banner*.jpg} of nog beter\texttt{ http://voorbeeld.com/ads/*}. Standaard zullen ad blockers voor en na elke regel een wildcard zetten. De filters \texttt{advertentie}, \texttt{ad} en \texttt{*ad*} zijn alle 3 gelijk. Het is belangrijk hier rekening mee te houden wanneer men bijvoorbeeld alle flash bestanden wil blokkeren zou men de filter \texttt{swf} kunnen toepassen. Maar deze filter zal er ook voor zorgen dat \texttt{http://voorbeeld.com/swf/index.html} zal geblokkeerd worden. De oplossing voor dit probleem is het pipe sympool |, \texttt{swf|} zal enkel adressen blokkeren die eindigen met swf. Wanneer men zowel \texttt{\textbf{http://}voorbeeld.com/banner.jpg}, \texttt{\textbf{https://}voorbeeld.com/banner.jpg} als \texttt{\textbf{https://}voorbeeld.com/banner.jpg} geblokkeerd moeten worden kan men gebruik maken van het dubbele pipe symbool: ||. \texttt{||voorbeeld.com/banner.jpg} zal de drie voorgaande adressen blokkeren.
+Naast de basis regels zijn er nog meer geavanceerde regels\footnote{\url{https://adblockplus.org/en/filters}} of kan er gewerkt worden met reguliere expressies. Het gebruik van reguliere expressies wordt sterk afgeraden omdat dit de performantie naar omlaag trekt.
+\subsection{Uitzonderingen}
+\label{sec Uitzonderingen}
+Wanneer filters die in de meeste gevallen goed werken toch adressen blokkeren die niet zouden mogen geblokkeerd worden dan kunnen uitzonderingen gebruikt worden. Als de filter \texttt{adv} gebruikt wordt en \texttt{http://voorbeeld.com/advice.html} mag niet geblokkeerd worden dan kan men als uitzondering \texttt{@@advice} gebruiken. Uitzonderingsregels verschillen voor de rest niet van de filter regels en kunnen dus op dezelfde manier samengesteld worden.
+\section{Regels voor element hidding}
+\label{sec:Regels voor element hidding}
+
+\section{Request blocking}
+\label{sec:Request blocking}
+
 \chapter{Gebruik van adblockers}
 \label{ch:Gebruik van adblockers}
 \section{Wie gebruikt ze}

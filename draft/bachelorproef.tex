@@ -36,7 +36,7 @@
 \usepackage[T1]{fontenc}     % Ivm lettertypes
 \usepackage{lmodern}
 \usepackage{textcomp}
-
+\usepackage{listings}
 
 \usepackage{lipsum}          % Voor vultekst (lorem ipsum)
 
@@ -55,6 +55,12 @@
   name=cross-site request,
   description={Een cross-site request is een request naar een volledig andere webpagina, die de browser in opdracht van een webpagina uitvoerd. },
 	plural={cross-site requests}
+}
+\newglossaryentry{css selectors}
+{
+  name=css selector,
+  description={In css worden selectors gebruikt om te selecteren welke delen moeten gebruik maken van een bepaalde stijl.},
+	plural={css selectors}
 }
 
 
@@ -278,7 +284,7 @@ De term ad blocker is de overkoepelende term voor alle soorten software die adve
 Adblock Plus \footnote{\url{https://adblockplus.org/}} is gratis extensie voor Internet Explorer, Mozilla Firefox, Google Chrome, Opera en Safari. Eyeo GmbH is het bedrijf achter Adblock Plus. Over alle browsers heen is dit de meest gebruikte ad blocker met in totaal meer dan 50 miljoen gebruikers \footnote{\url{https://chrome.google.com/webstore/search/ad\%20block?utm_source=chrome-ntp-icon&_category=extensions}} \footnote{\url{https://addons.mozilla.org/nl/firefox/extensions/?sort=users}}. Anders dan andere ad blockers haalt Adblock Plus zijn inkomsten niet uit donaties. Met hun "`Acceptable ads program"' laten ze bedrijven betalen om hun advertenties op een witte lijst te plaatsen. 
 \section{AdBlock}
 \label{sec:AdBlock}
-Adblock Plus \footnote{\url{https://getadblock.com/}} is een gratis en opensource extensie voor Google Chrome en Safari. Het team achter AdBlock haalt zijn inkomsten volledig uit donaties. Met in totaal 40 miljoen gebruikers is dit de op een na grootste ad blocker.
+Adblock \footnote{\url{https://getadblock.com/}} is een gratis en opensource extensie voor Google Chrome en Safari. Het team achter AdBlock haalt zijn inkomsten volledig uit donaties. Met in totaal 40 miljoen gebruikers is dit de op een na grootste ad blocker.
 
 \section{µBlock Origin}
 \label{sec:uBlock Origin}%nog aanpassen
@@ -289,27 +295,67 @@ Adblock Plus \footnote{\url{https://getadblock.com/}} is een gratis en opensourc
 
 \chapter{Hoe werkt een adblocker}
 \label{ch:Hoe werkt een adblocker}
-Ad blockers zoals AdBlock en Adblock Plus hebben op zichzelf geen functionaliteit, ze moeten verteld worden wat geblokkeerd moet worden. Dit wordt mogelijk gemaakt door externe filters toe te voegen. Filters zijn in wezen een uitgebreide set van regels die een ad blocker vertellen welke elementen geblokkeerd moeten worden. De meest gebruikte filter is die van EasyList\footnote{\url{https://easylist.adblockplus.org/nl/}}. Alle eerder vernoemde ad blockers gebruiken als basis een filter van EasyList. Deze filters zijn deels regio gebonden, een Nederlandstalige filter zal een grotere focus hebben op Nederlandse (en ook Vlaamse) domeinen. Filter zijn regels tekst die bepalen welke adressen niet mogen worden geladen of welke HTML DOM Elementen niet mogen worden getoond.
+Ad blockers zoals AdBlock en Adblock Plus hebben op zichzelf geen functionaliteit, ze moeten verteld worden wat geblokkeerd moet worden. Dit wordt mogelijk gemaakt door externe filters toe te voegen. Filters zijn in wezen een uitgebreide set van regels die een ad blocker vertellen welke elementen geblokkeerd moeten worden. De meest gebruikte filter is die van EasyList\footnote{\url{https://easylist.adblockplus.org/nl/}}. Alle eerder vernoemde ad blockers gebruiken als basis een filter van EasyList. Deze filters zijn deels regio gebonden, een Nederlandstalige filter zal een grotere focus hebben op Nederlandse (en ook Vlaamse) domeinen. Filters zijn regels tekst die bepalen welke adressen niet mogen worden geladen of welke HTML DOM Elementen niet mogen worden getoond.
 
-\section{Filter Rules}
-\label{sec:Filter Rules}
+\section{Request blocking}
+\label{sec:Request blocking}
+De meeste content wordt geblokkeerd door request blocking waarbij ad blockers met behulp van de filters bepalen welke HTTP of HTTPS requests onderschept moeten worden. De Filters zijn opgebouwd vanuit eenvoudige regels.
 \subsection{Basis regels}
 \label{sec Basis regels}
-De meest eenvoudige filter die kan gedefinieerd kan worden is bijvoorbeeld voor deze reclameblok \texttt{http://voorbeeld.com/ads/banner123.jpg}. Je kan deze regel al eenvoudig beter maken door alle banners te blokkeren \texttt{http://voorbeeld.com/ads/banner*.jpg} of nog beter\texttt{ http://voorbeeld.com/ads/*}. Standaard zullen ad blockers voor en na elke regel een wildcard zetten. De filters \texttt{advertentie}, \texttt{ad} en \texttt{*ad*} zijn alle 3 gelijk. Het is belangrijk hier rekening mee te houden wanneer men bijvoorbeeld alle flash bestanden wil blokkeren zou men de filter \texttt{swf} kunnen toepassen. Maar deze filter zal er ook voor zorgen dat \texttt{http://voorbeeld.com/swf/index.html} zal geblokkeerd worden. De oplossing voor dit probleem is het pipe sympool |, \texttt{swf|} zal enkel adressen blokkeren die eindigen met swf. Wanneer men zowel \texttt{\textbf{http://}voorbeeld.com/banner.jpg}, \texttt{\textbf{https://}voorbeeld.com/banner.jpg} als \texttt{\textbf{https://}voorbeeld.com/banner.jpg} geblokkeerd moeten worden kan men gebruik maken van het dubbele pipe symbool: ||. \texttt{||voorbeeld.com/banner.jpg} zal de drie voorgaande adressen blokkeren.
+De meest eenvoudige filter die kan gedefinieerd kan worden is bijvoorbeeld voor deze reclameblok \texttt{http://voorbeeld.com/ads/banner123.jpg}. Je kan deze regel al makkelijk beter maken door alle banners te blokkeren \texttt{voorbeeld.com/ads/banner*.jpg} of nog beter\texttt{ http://voorbeeld.com/ads/*}. Standaard zullen ad blockers voor en na elke regel een wildcard \texttt{*} zetten. De filters \texttt{advertentie}, \texttt{ad} en \texttt{*ad*} zijn dan alle drie gelijk. Het is belangrijk hier rekening mee te houden wanneer men bijvoorbeeld alle flash bestanden wil blokkeren zou men de filter \texttt{swf} kunnen toepassen. Maar deze filter zal er ook voor zorgen dat \texttt{http://voorbeeld.com/swf/index.html} zal geblokkeerd worden. De oplossing voor dit probleem is het pipe sympool |, \texttt{swf|} zal enkel adressen blokkeren die eindigen met swf. Wanneer men zowel \texttt{\textbf{http://}voorbeeld.com/banner.jpg}, \texttt{\textbf{https://}voorbeeld.com/banner.jpg} als \texttt{\textbf{https://}voorbeeld.com/banner.jpg} geblokkeerd moeten worden kan men gebruik maken van het dubbele pipe symbool: ||. \texttt{||voorbeeld.com/banner.jpg} zal de drie voorgaande adressen blokkeren.
 Naast de basis regels zijn er nog meer geavanceerde regels\footnote{\url{https://adblockplus.org/en/filters}} of kan er gewerkt worden met reguliere expressies. Het gebruik van reguliere expressies wordt sterk afgeraden omdat dit de performantie naar omlaag haalt.
 \subsection{Uitzonderingen}
 \label{sec Uitzonderingen}
 Wanneer filters die in de meeste gevallen goed werken toch adressen blokkeren die niet zouden mogen geblokkeerd worden dan kunnen uitzonderingen gebruikt worden. Als de filter \texttt{adv} gebruikt wordt en \texttt{http://voorbeeld.com/advice.html} mag niet geblokkeerd worden dan kan men als uitzondering \texttt{@@advice} gebruiken. Uitzonderingsregels verschillen voor de rest niet van de filter regels en kunnen dus op dezelfde manier samengesteld worden.
-\section{Regels voor element hidding}
-\label{sec:Regels voor element hidding}
+\section{ Element hidding}
+\label{sec:Element hidding}
+Wanneer reclame niet kan geblokkeerd worden door request blocking, bijvoorbeeld omdat die reclame meekomt als tekst samen met de werkelijk opgevraagde webpagina, dan kan men gebruik maken van element hidding. Element hidding kan gebruikt worden als een deel van de broncode van de webpagina er bijvoorbeeld zo uit ziet:
+\lstset{language=Html,tabsize=2}  
+\begin{lstlisting}
+	<div class="textad">
+		Goedkoop bier, enkel hier en nu!
+	</div>
+	<div id="sponsorad">
+		Goedkope pizza, klik hier!
+	</div>
+	<textad>
+		Voor goedkoop goud, klik hier!
+	</textad>
+\end{lstlisting}
 
-\section{Request blocking}
-\label{sec:Request blocking}
+Men moet de webpagina downloaden, dus download men de reclame vanzelf ook mee. In plaats van de reclame te blokkeren kan men hier de reclame verbergen, zodat die niet zichtbaar is voor de gebruiker. Dit is wat element hidding voor bedoeld is. Element hidding regels zijn gelijkaarding opgebouwd als request blocking regels en beginnen steeds met \texttt{\#\#}. Daarnaast worden de regels opgebouwd met behulp van \glspl{css selectors}. In bovenstaand geval kan men bijvoorbeeld als regel \texttt{\#\#div.textad} gebruiken om de eerste reclame blok te verwijderen. Voor het tweede reclameblok en specifiek voor één domein \texttt{example.com\#\#div\#sponsorad}
+
+\subsection{Element Hiding helper}
+\label{sec Element Hiding helper} 
+Sommige ad blockers zoals Adblock Plus en µBlock Origin beschikken over een handige tool die toelaat om manuel elementen te verbergen met behulp van een selector. Dit laat eenvoudig toe om met de muis elementen te kiezen die men liever verborgen wil zien. De ad blocker zal dan automatisch een regel genereren die bij het geselecteerde element hoort.
 
 \chapter{Gebruik van adblockers}
 \label{ch:Gebruik van adblockers}
+Eind 2015 werd wereldwijd de kaap van 200 miljoen maandelijks actieve ad block gebruikers overschreden \citep{PageFair2015}. Over volledig het jaar 2015 waren er bijna 3.2 miljard\footnote{\url{ http://www.internetlivestats.com/internet-users/\#trend}} actieve internet gebruikers. Dit betekend dat meer dan 6.25\% van de internet gemeenschap een ad blocker gebruikt. En verwacht wordt dat dit percentage de komende jaren enkel maar zal stijgen.
+
 \section{Wie gebruikt ze}
 \label{sec:Wie gebruikt ze}
+De gemiddelde ad block gebruiker is een man tussen de achttien en de negenentwintig jaar en woont in een westers land \citep{PageFair2014}.
+\subsection{Demografische spreiding}
+\label{sec Demografische spreiding}
+testttest \ref{fig: Demographic_age_sex}
+
+\begin{figure}
+\centering
+\includegraphics[width=7cm]{img/demographicsMV}
+\caption{Aantal ad block gebruikers volgens leeftijd en geslacht}
+\label{fig: Demographic_age_sex}
+\end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=7cm]{img/demographicsAge}
+\caption{Aantal ad block gebruikers volgens leeftijd}
+\label{fig: Demographic_age}
+\end{figure}
+% \includegraphics[width=2.5cm]{img/demographicsMV}\\[.5cm]
+
+
+
 \section{Redenen voor gebruik adblocker}
 \label{sec:Redenen voor gebruik adblocker}
 \chapter{Huidige impact van adblockers}

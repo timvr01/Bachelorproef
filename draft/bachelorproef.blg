@@ -3,4 +3,6 @@ The style file: apa.bst
 Database file #1: tin-bachproef.bib
 Warning--entry type for "PerformanceAB" isn't style-file defined
 --line 40 of file tin-bachproef.bib
-(There was 1 warning)
+Warning--empty journal in PageFair2014
+Warning--empty journal in PageFair2015
+(There were 3 warnings)

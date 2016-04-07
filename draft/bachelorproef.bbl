@@ -4,4 +4,12 @@
 Firefoxcvp (2015).
 \newblock Best ad blocker tested for performance.
 
+\bibitem[\protect\astroncite{PageFairTeam}{2014}]{PageFair2014}
+PageFairTeam (2014).
+\newblock The cost of ad blocking.
+
+\bibitem[\protect\astroncite{PageFairTeam}{2015}]{PageFair2015}
+PageFairTeam (2015).
+\newblock The cost of ad blocking.
+
 \end{thebibliography}

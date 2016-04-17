@@ -56,11 +56,25 @@
   description={Een cross-site request is een request naar een volledig andere webpagina, die de browser in opdracht van een webpagina uitvoerd. },
 	plural={cross-site requests}
 }
+\newglossaryentry{Affiliate marketing}
+{
+  name=Affiliate marketing,
+  description={
+	Affiliate marketing is een vorm van internetmarketing waarbij adverteerders hun partners (affiliates) belonen voor de gegenereerde verkopen of leads (zoals lidmaatschappen - abonnementen) die de affiliate heeft aangeleverd. Affiliates kunnen dit bewerkstelligen door onder andere advertenties van adverteerders op hun website te plaatsen. Als er uit het doorverwijzen van klanten naar de adverteerders een verkoop of lead volgt, ontvangt de affiliate hiervoor een vergoeding van de adverteerder. },
+	plural={Affiliate marketing}
+}
+
 \newglossaryentry{css selectors}
 {
   name=css selector,
   description={In css worden selectors gebruikt om te selecteren welke delen moeten gebruik maken van een bepaalde stijl.},
 	plural={css selectors}
+}
+\newglossaryentry{Whitelist}
+{
+  name=Whitelist,
+  description={Een whitelist van een ad blocker is een lijst met webpagina's waarop de ad blocker uitgeschakeld zal zijn en waarbij advertenties wel getoond zullen worden.},
+	plural={Whitelists}
 }
 
 
@@ -128,7 +142,7 @@
 \newcommand{\rapporttype}{Scriptie voorgedragen tot het bekomen van de graad van\\Bachelor in de toegepaste informatica}
 
 % Academiejaar
-\newcommand{\academiejaar}{2014-2015}
+\newcommand{\academiejaar}{2015-2016}
 
 % Examenperiode
 %  - 1e semester = 1e examenperiode
@@ -331,15 +345,24 @@ Sommige ad blockers zoals Adblock Plus en µBlock Origin beschikken over een han
 
 \chapter{Gebruik van adblockers}
 \label{ch:Gebruik van adblockers}
-Eind 2015 werd wereldwijd de kaap van 200 miljoen maandelijks actieve ad block gebruikers overschreden \citep{PageFair2015}. Over volledig het jaar 2015 waren er bijna 3.2 miljard\footnote{\url{ http://www.internetlivestats.com/internet-users/\#trend}} actieve internet gebruikers. Dit betekend dat meer dan 6.25\% van de internet gemeenschap een ad blocker gebruikt. En verwacht wordt dat dit percentage de komende jaren enkel maar zal stijgen.
+Eind 2015 werd wereldwijd de kaap van 200 miljoen maandelijks actieve ad block gebruikers overschreden \citep{PageFair2015}. Over volledig het jaar 2015 waren er bijna 3.2 miljard\footnote{\url{ http://www.internetlivestats.com/internet-users/\#trend}} actieve internet gebruikers. Dit betekend dat meer dan 6.25\% van de internet gemeenschap een ad blocker gebruikt. En verwacht wordt dat dit percentage de komende jaren enkel maar zal stijgen. Wanneer de trend van de voorbije jaren zich voortzet dan zal het aantal gebruikers van een ad blocker jaarlijks met meer dan 40\% blijven stijgen \ref{fig: adblock-growth}.
 
 \section{Wie gebruikt ze}
 \label{sec:Wie gebruikt ze}
-De gemiddelde ad block gebruiker is een man tussen de achttien en de negenentwintig jaar en woont in een westers land \citep{PageFair2014}.
+In 2014 en opnieuw in 2015 verzamelden PageFair samen met Adobe data omtrent het gebruik van ad blockers \citep{PageFair2015,PageFair2014}. Uit dit onderzoek kan het volgende worden geconcludeerd. 
+De gemiddelde ad block gebruiker is een man tussen de achttien en de negenentwintig jaar en woont in Noord-Amerika of West-Europa. Dit zijn tevens de groep die het meest gebruik maken van het internet. Dit zou dan ook een verklaring kunnen zijn waarom slechts 6.25\% van de internet gemeenschap een ad blocker gebruikt maar het aantal geregistreerde ad block gebruikers bij veel websites een stuk hoger ligt \ref{chapter:Huidige impact van adblockers}.
 \subsection{Demografische spreiding}
 \label{sec Demografische spreiding}
-testttest \ref{fig: Demographic_age_sex}
-
+Ad block gebruikers zijn voor het grootste deel mannen, het is 48\% waarschijnlijker dan een man een ad blocker gebruikt bij het browsen dan een vrouw \ref{fig: Demographic_age_sex}. Daarnaast zijn voornamelijk tieners of jonge twintigers de grootste gebruikers van ad blockers.\ref{fig: Demographic_age} Van de ondervraagde personen tussen de 18-29 gaf maar liefst 41\% toe een ad blocker te gebruiken. Daar komt nog eens bij dat het ook deze groep van jong volwassenen is die het meest gebruik maakt van het internet.\footnote{\url{http://www.statista.com/statistics/272365/age-distribution-of-internet-users-worldwide/}}. Het aandeel in het aantal actieve ad block gebruikers daalt met de leeftijd.
+\subsection{Geografische spreiding}
+\label{sec Geografische spreiding}
+ 
+\begin{figure}
+\centering
+\includegraphics[width=7cm]{img/adblock-growth}
+\caption{Globale groei van het maandelijkse aantal actieve ad block gebruikers}
+\label{fig: adblock-growth}
+\end{figure}
 \begin{figure}
 \centering
 \includegraphics[width=7cm]{img/demographicsMV}
@@ -352,20 +375,114 @@ testttest \ref{fig: Demographic_age_sex}
 \caption{Aantal ad block gebruikers volgens leeftijd}
 \label{fig: Demographic_age}
 \end{figure}
+\begin{figure}
+\centering
+\includegraphics[width=7cm]{img/TwitterPolSmashingMagazine}
+\caption{Twitter poll Smashing Magazine ad block gebruikers}
+\label{fig: twitter pol Smashing Magazine}
+\end{figure}
 % \includegraphics[width=2.5cm]{img/demographicsMV}\\[.5cm]
 
+\subsection{spreiding over de verschillende browsers}
+\label{sec spreiding over de verschillende browsers}
 
+\subsection{Spreiding over de verschillende content}
+\label{sec Spreiding over de verschillende content}
 
+Bij webpagina's met een technisch slimmer publiek kan het gebruik van een ad blocker door de bezoekers meer de regel zijn dan de uitzondering. Bij SmashingMagazinge, een online magazine voor professionele Web designers en developers, gaf 75\% van de bezoekers toe gebruik te maken van een ad blocker \ref{fig: twitter pol Smashing Magazine}. Slechts 25\% zei helemaal geen gebruik te maken van een ad blocker.
 \section{Redenen voor gebruik adblocker}
 \label{sec:Redenen voor gebruik adblocker}
+\subsection{Gewone reclame}
+\label{sec Gewone reclame}
+\subsection{click bait}
+\label{sec click bait}
+\subsection{tracking/privacy}
+\label{sec tracking/privacy}
+\subsection{Beveiliging}
+\label{sec Beveiliging}
+\subsection{performantie}
+\label{sec performantie}
+
 \chapter{Huidige impact van adblockers}
 \label{ch:Huidige impact van adblockers}
+Veel reclame bedrijven begrijpen de redenen voor gebruik van ad blockers namelijk snelheid, privacy, beveiliging en een webpagina zonder afleidingen. Ze beginnen te begrijven dat voor een internet met reclame de reclame minder agressief en storend moet zijn.
+\section{Youtube en zijn content creators}
+\label{sec:Youtube en zijn content creators}
+\subsection{CPM model}
+\label{sec CPM model}
+
+
 \chapter{Hoe wapenen bedrijven zich tegen adblockers}
 \label{ch:Hoe wapenen bedrijven zich tegen adblockers}
+In een poging om terug te vechten tegen het steeds groeiend gebruik van ad blockers, gebruiken websites die overleven van reclame inkomsten een verschillende technieken. Van meldingen die inspelen op het geweten van de bezoekers van een webpagina tot het volledig blokkeren van toegang voor bezoekers die een ad blocker geïnstalleerd en geactiveerd hebben.
+
+\section{De Verschillende mogelijkheden}
+\label{sec:De Verschillende mogelijkheden}
+Als een eigenaar of beheerder van een webpagina zijn er enkele mogelijkheden waarvan men kan kiezen. 
+
+\begin{itemize}
+	\item Een gebruiker van een ad blocker detecteren en dwingen om de site niet te blokkeren of vragen een abonnement te kopen.
+	\item Gebruik maken van een paywall, waarbij enkel betalende gebruikers toegang tot de content hebben.
+	\item Een gelimiteerd aantal gratis bezoeken/artikels alvorens te vragen om te abonneren.
+	\item Gebruikers om een vrijblijvende donatie vragen, als vervanging voor de verloren inkomsten door het gebruik van een ad blocker.
+	\item Gesponsorde content
+	
+\end{itemize}
+
+De keuze kan afhangen van de inhoud die de webpagina te bieden heeft, de impact die reclame heeft op inkomsten stroom van een website, maar ook van bijvoorbeeld de loyaliteit van de bezoekers. Bij een webpagina die zich focust op verkoop van goederen of diensten zou het niet productief zijn om mensen die een ad blocker gebruiken te blokkeren, het vragen voor donaties zal ook negatief overkomen en zelfs een melding met de vraag om de ad blocker uit te schakelen zal de gebruiker als onbeleefd ervaren.
+
+\subsection{Blokkeren van ad block gebruikers}
+\label{sec Blokkeren van ad block gebruikers}
+Wanneer de verliezen van reclame inkomsten te groot worden dan kan er voor gekozen worden om gebruikers die gebruik maken van ad blockers toegang tot de webpagina te blokkeren zolang de ad blocker actief is of tot wanneer de webpagina wordt toegevoegd aan de \gls{Whitelist} van de ad blocker. Er kan ook aangeboden worden om een abonnement op de webpagina te kopen die het gebruik van ad blockers toe laat. Dit model wordt al toegepast door nieuws sites zoals Forbes.com en Bild.de.
+\\
+Het idee achter deze aanpak kan gevaarlijk zijn: in veel gevallen zien eigenaars of beheerders van webpagina's ad block gebruikers als niet belangrijk of niet waardevol. Ze profiteren immers van de website zonder iets in ruil te geven. Maar ze lopen zo het risico veel verkeer en de loyaliteit te verliezen, vooral bij nieuws sites waarbij het aanbod zeer uitgebreid is. Het is de loyaliteit die er voor zorgt dat gebruikers altijd opnieuw terug komen naar een specifieke webpagina en het is die loyaliteit die er in de toekomst voor kan zorgen dat gebruikers een abonnement kopen. Op lange termijn zou het dus kunnen zijn dat gebruikers blokkeren een negatief effect heeft.
+\\
+Wanneer men de mogelijke gevolgen op lange termijn negeert zorgt het blokkeren van gebruikers van ad blockers voor het gewenste resultaat. Volgens een onderzoek van IAB(Internet Advertising Bureau) in het Verenigd Koninkrijk zouden 64\% van de ondervraagden hun ad blocker uitschakelen wanneer toegang wordt geweigerd. Hieruit kan ook worden afgeleid dat 30-40\% van ad block gebruikers dit niet doen en dus wegblijven van webpagina's die hun de toegang blokkeren en ze waarschijnlijk in de toekomst ook zullen wegblijven. Vooral voor webpagina's die naast hun advertenties hun inkomsten halen uit andere producten of diensten kan dit nadelig zijn.
+\\
+Een ander probleem zijn de beperkte technische mogelijkheden voor het detecteren en blokkeren van ad block gebruikers. Deze technieken maken gebruik van scripts die naar verloop van tijd omzeilt worden door sommige ad blockers zoals µBlock. Voor sommige andere ad blockers lukt het niet om deze technieken te omzeilen, maar een extra plugin, Anti-Adbock killer, downloaden en installeren volstaat voor de blokkering te omzeilen.
+\\
+De enige tool die er tot nu toe altijd in slaagde om elke ad blocker te detecteren is BlockAdblock \footnote{\url{http://blockadblock.com/}}.
+
+\begin{figure}
+\centering
+\includegraphics[width=7cm]{img/Adblockblock}
+\caption{Gebruikers die zeggen ad block uit schakelen wanneer toegang wordt gewijgerd}
+\label{fig: Adblockblock}
+\end{figure}
+
+\subsection{Gebruik maken van een paywall}
+\label{sec Gebruik maken van een paywall}
+Een nog hardere manier van aanpakken dan vorige methode is er voor zorgen dat niemand aan de inhoud van de webpagina kan zonder te betalen. Er wordt geen onderscheid gemaakt of de bezoeker van de webpagina nu een ad blocker gebruikt of niet, iedereen moet betalen. Het voordeel van deze methode is dat ze eenvoudig uit te voeren is en dat ad blockers er niets kunnen tegen doen, er valt namelijk niets te blokkeren.
+\\
+Het grote nadeel is dat het bereik van je webpagina zeer klein is en zeer slecht verspreid over het internet. Gebruikers met een abonnement hebben dan wel toegang tot de content, ze kunnen er geen discussie over aangaan op sociale media want weinig kans dat vrienden en kennissen over dezelfde toegang beschikken. De Nederlandstalige nieuws site De Correspondent \footnote{\url{https://decorrespondent.nl/}} hanteert dit model, en heeft een gedeeltelijke oplossing gevonden voor de slechte bereikbaarheid. Ze laat betalende gebruikers toe om artikels te delen op sociale media met een unieke link, via deze link is het gedeelde artikel leesbaar voor iedereen.
+\\ 
+Webpagina's die dit model willen succesvol willen toepassen moeten inhoud van hoge kwaliteit die liefst ook uniek is. Het zal hoe dan ook moeilijk zijn om nieuwe abonnees te vinden. Een vaak gebruikte manier om toch bezoekers te lokken is om per gebruiker een aantal gratis artikels per maand ter beschikking te stellen, de gebruiker is dan wel verplicht een account aan te maken. Bezoekers kunnen via deze weg eenvoudiger verleid worden om een abonnement te kopen, ze weten beter voor welk soort content ze zullen betalen.
+
+
+\subsection{Donaties vragen}
+\label{sec Donaties vragen}
+Bezoekers van webpagina's die een ad blocker gebruiken laten duidelijk weten dat ze de webpagina wel willen bezoeken maar daar niet alle negatieve effecten van reclame bij willen. Eigenaars en beheerders van een webpagina kunnen in plaats van reclame te tonen donaties vragen. Ze kunnen er voor kiezen om aan niemand reclame te tonen en dan om elke bezoeker een donatie te vragen, Wikipedia werkt op deze manier. Een andere mogelijkheid is aan elke gebruiker reclame te tonen en enkel bij gebruikers die deze reclame blokkeren om een donatie vragen.
+\\
+Het vragen van een donatie speelt in op het geweten van de gebruiker, maar het geweten van de meeste gebruikers is rap gesust. De bezoekers die ad blockers gebruiken en bereidt zijn om een donatie te doen, doen dit één misschien twee keer, waarna hun geweten gezuiverd is. Een vervanging voor de inkomsten stroom uit reclame kan dit dus niet genoemd worden.
+
+
+\subsection{Gesponsorde content en \gls{Affiliate marketing}}
+\label{sec Gesponsorde content en Affiliate marketing}
+Wanneer eigenaars en beheerders van webpagina's ad block gebruikers niet willen blokkeren of niet willen dwingen om te abonneren. Wanneer donaties onvoldoende zijn of men simpel weg niet wil bedelen. Dan kan men de manier waarop men adverteert aanpassen. Gesponsorde artikels zijn hier een voorbeeld van, hier betaald een derde partij voor een content te plaatsen op jouw platform. Een ander voorbeeld zijn door product reviews te publiceren die gesponsord worden door de eigenaar van dat product. 
+\\
+In video en beeldmateriaal kan dit op veel subtielere manieren gebeuren. Het dragen van gesponsorde kleren met merknamen op, zoals al vaker in de sport wereld gebeurt, is een eenvoudige manier om reclame in de content te verweven.
+\\
+Ook door middel van gesponsorde links naar andere webpagina's kan geprobeerd worden de verloren opbrengsten goed te maken.
 \chapter{Gevolgen op lange termijn}
 \label{ch:Gevolgen op lange termijn}
 \chapter{Hoe zien de makers van adblockers de toekomst}
 \label{ch:Hoe zien de makers van adblockers de toekomst}
+
+\section{Ad block plus, acceptabele adds program}
+\label{sec:Ad block plus, acceptabele adds program}
+\subsection{Afpersing of niet?}
+\label{sec Afpersing of niet}
+
 %% TODO: de structuur en titel van deze hoofdstukken hangen af van je
 % eigen onderzoek. Elke fase in je onderzoek kan een eigen hoofdstuk krijgen. Kies telkens een gepaste titel. ``Corpus'' is *GEEN* gepaste titel
 

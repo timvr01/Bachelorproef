@@ -11,14 +11,14 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1562
-NormalPos.bottom=889
+NormalPos.right=715
+NormalPos.bottom=548
 Class=LaTeXView
 Document=bachelorproef.tex
 
 [Frame0_View0,0]
-TopLine=372
-Cursor=0
+TopLine=366
+Cursor=19150
 
 [Frame1]
 Flags=0
@@ -29,13 +29,13 @@ MaxPos.x=-1
 MaxPos.y=-1
 NormalPos.left=4
 NormalPos.top=26
-NormalPos.right=1562
-NormalPos.bottom=889
+NormalPos.right=715
+NormalPos.bottom=548
 Class=BibTeXView
 Document=tin-bachproef.bib
 
 [Frame1_View0,0]
-TopLine=15
+TopLine=16
 Cursor=1179
 
 [SessionInfo]

@@ -1,8 +1,43 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\astroncite{Chaffey}{2016}]{Chaffey2016}
+Chaffey, D. (2016).
+\newblock {Display advertising clickthrough rates }.
+\newblock {\em smartinsights}.
+
+\bibitem[\protect\astroncite{eMarketer}{2016}]{EMarketer2016}
+eMarketer, E. (2016).
+\newblock Digital ad spending to surpass tv next year.
+\newblock {\em eMarketer}.
+
 \bibitem[\protect\astroncite{Firefoxcvp}{2015}]{PerformanceAB}
 Firefoxcvp (2015).
 \newblock Best ad blocker tested for performance.
+
+\bibitem[\protect\astroncite{Friend}{2014}]{IAB2014}
+Friend, B. (2014).
+\newblock Iab ad blocking study.
+\newblock {\em IAB}.
+
+\bibitem[\protect\astroncite{Hobbs}{2015}]{pwc2015}
+Hobbs, M. (2015).
+\newblock internet-advertising insights.
+\newblock {\em pwc}.
+
+\bibitem[\protect\astroncite{Hoelzel}{2016}]{BI-Insider2016}
+Hoelzel, M. (2016).
+\newblock The us digital media ad spend report.
+\newblock {\em Business Insider, UK}.
+
+\bibitem[\protect\astroncite{KELLER}{2015}]{nytimes2015}
+KELLER, G. A. W.~A. (2015).
+\newblock The cost of mobile ads on news websites.
+\newblock {\em IAB}.
+
+\bibitem[\protect\astroncite{Malcolm}{2015}]{Fraser2015}
+Malcolm, T. (2015).
+\newblock {\em Adblock Plus Efficacy Study}.
+\newblock Simon Frazer University.
 
 \bibitem[\protect\astroncite{PageFairTeam}{2014}]{PageFair2014}
 PageFairTeam (2014).
@@ -11,5 +46,10 @@ PageFairTeam (2014).
 \bibitem[\protect\astroncite{PageFairTeam}{2015}]{PageFair2015}
 PageFairTeam (2015).
 \newblock The cost of ad blocking.
+
+\bibitem[\protect\astroncite{Silverman}{2015}]{Silverman2015}
+Silverman, D. (2015).
+\newblock {\em Internet Advertising Revenue Report}.
+\newblock Internet Advertising Bureau.
 
 \end{thebibliography}

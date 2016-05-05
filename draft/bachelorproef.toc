@@ -1,40 +1,57 @@
 \select@language {dutch}
-\contentsline {chapter}{\numberline {1}Inleiding}{6}{chapter.1}
-\contentsline {section}{\numberline {1.1}Probleemstelling en Onderzoeksvragen}{6}{section.1.1}
-\contentsline {chapter}{\numberline {2}Methodologie}{8}{chapter.2}
-\contentsline {chapter}{\numberline {3}Wat is een adblocker}{9}{chapter.3}
-\contentsline {section}{\numberline {3.1}Adblock Plus}{9}{section.3.1}
-\contentsline {section}{\numberline {3.2}AdBlock}{10}{section.3.2}
-\contentsline {section}{\numberline {3.3}\IeC {\textmu }Block Origin}{10}{section.3.3}
-\contentsline {chapter}{\numberline {4}Hoe werkt een adblocker}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Request blocking}{11}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Basis regels}{11}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Uitzonderingen}{12}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2} Element hidding}{12}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Element Hiding helper}{13}{subsection.4.2.1}
-\contentsline {chapter}{\numberline {5}Gebruik van adblockers}{14}{chapter.5}
-\contentsline {section}{\numberline {5.1}Wie gebruikt ze}{14}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Demografische spreiding}{14}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Geografische spreiding}{15}{subsection.5.1.2}
-\contentsline {subsection}{\numberline {5.1.3}spreiding over de verschillende browsers}{15}{subsection.5.1.3}
-\contentsline {subsection}{\numberline {5.1.4}Spreiding over de verschillende content}{15}{subsection.5.1.4}
-\contentsline {section}{\numberline {5.2}Redenen voor gebruik adblocker}{17}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Gewone reclame}{17}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}click bait}{17}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}tracking/privacy}{17}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Beveiliging}{17}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}performantie}{17}{subsection.5.2.5}
-\contentsline {chapter}{\numberline {6}Huidige impact van adblockers}{18}{chapter.6}
-\contentsline {section}{\numberline {6.1}Youtube en zijn content creators}{18}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}CPM model}{18}{subsection.6.1.1}
-\contentsline {chapter}{\numberline {7}Hoe wapenen bedrijven zich tegen adblockers}{19}{chapter.7}
-\contentsline {section}{\numberline {7.1}De Verschillende mogelijkheden}{19}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.1}Blokkeren van ad block gebruikers}{20}{subsection.7.1.1}
-\contentsline {subsection}{\numberline {7.1.2}Gebruik maken van een paywall}{21}{subsection.7.1.2}
-\contentsline {subsection}{\numberline {7.1.3}Donaties vragen}{22}{subsection.7.1.3}
-\contentsline {subsection}{\numberline {7.1.4}Gesponsorde content en \gls {Affiliate marketing}}{22}{subsection.7.1.4}
-\contentsline {chapter}{\numberline {8}Gevolgen op lange termijn}{23}{chapter.8}
-\contentsline {chapter}{\numberline {9}Hoe zien de makers van adblockers de toekomst}{24}{chapter.9}
-\contentsline {section}{\numberline {9.1}Ad block plus, acceptabele adds program}{24}{section.9.1}
-\contentsline {subsection}{\numberline {9.1.1}Afpersing of niet?}{24}{subsection.9.1.1}
-\contentsline {chapter}{\numberline {10}Conclusie}{25}{chapter.10}
+\contentsline {chapter}{\numberline {1}Inleiding}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}Probleemstelling en Onderzoeksvragen}{5}{section.1.1}
+\contentsline {chapter}{\numberline {2}Methodologie}{6}{chapter.2}
+\contentsline {chapter}{\numberline {3}Internet en publiciteit}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}Evolutie van reclame}{7}{section.3.1}
+\contentsline {section}{\numberline {3.2}Gebruikte technologie}{8}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Banner advertising }{8}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Google search reclame }{9}{subsection.3.2.2}
+\contentsline {section}{\numberline {3.3}Reclame netwerken}{10}{section.3.3}
+\contentsline {section}{\numberline {3.4}Inkomsten uit reclame}{10}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Conclusie en vooruitzichten }{10}{subsection.3.4.1}
+\contentsline {chapter}{\numberline {4}De Ad blockers}{12}{chapter.4}
+\contentsline {section}{\numberline {4.1}Aanbieders}{12}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Adblock Plus}{12}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}AdBlock}{13}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}\IeC {\textmu }Block Origin}{13}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Ghostery}{13}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Brave}{13}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}Werking van ad blockers}{13}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Request blocking}{13}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2} Element hidding}{14}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Business model}{15}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1} Accepteable ad's program}{15}{subsection.4.3.1}
+\contentsline {chapter}{\numberline {5}Evolutie gebruik Ad blockers}{17}{chapter.5}
+\contentsline {section}{\numberline {5.1}Spreiding}{18}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Demografische spreiding}{18}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Geografische spreiding}{18}{subsection.5.1.2}
+\contentsline {subsection}{\numberline {5.1.3}Spreiding over de verschillende browsers en platformen}{19}{subsection.5.1.3}
+\contentsline {subsection}{\numberline {5.1.4}Spreiding over de verschillende content}{20}{subsection.5.1.4}
+\contentsline {subsection}{\numberline {5.1.5}Conclusie}{22}{subsection.5.1.5}
+\contentsline {section}{\numberline {5.2}Redenen voor gebruik ad blocker}{22}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Reclame}{22}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Click bait}{23}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Tracking/privacy}{23}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Beveiliging}{24}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Laadsnelheid en bandbreedte}{24}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Conclusie}{25}{subsection.5.2.6}
+\contentsline {chapter}{\numberline {6}Huidige impact van ad blockers}{26}{chapter.6}
+\contentsline {section}{\numberline {6.1}Impact op de internet gebruiker}{26}{section.6.1}
+\contentsline {section}{\numberline {6.2}Impact op de economie}{26}{section.6.2}
+\contentsline {chapter}{\numberline {7}Hoe wapenen bedrijven zich tegen ad blockers}{27}{chapter.7}
+\contentsline {section}{\numberline {7.1}De verschillende mogelijkheden}{27}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.1}Blokkeren van ad block gebruikers}{28}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.2}Gebruik maken van een paywall}{29}{subsection.7.1.2}
+\contentsline {subsection}{\numberline {7.1.3}Donaties vragen}{30}{subsection.7.1.3}
+\contentsline {subsection}{\numberline {7.1.4}Gesponsorde content en affiliate marketing}{30}{subsection.7.1.4}
+\contentsline {chapter}{\numberline {8}Toekomst}{31}{chapter.8}
+\contentsline {section}{\numberline {8.1}Vooruitzicht in groei ad blockers}{31}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Mobile}{31}{subsection.8.1.1}
+\contentsline {section}{\numberline {8.2}Vooruitzicht in verlies opbrengsten van reclame}{31}{section.8.2}
+\contentsline {section}{\numberline {8.3}Aanpassingen aanbod publiciteit}{31}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Native ads}{31}{subsection.8.3.1}
+\contentsline {subsection}{\numberline {8.3.2}Acceptabele ad's}{31}{subsection.8.3.2}
+\contentsline {section}{\numberline {8.4}Wetgevingen en rechtzaken rond ad blockers}{31}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Rechtszaken}{32}{subsection.8.4.1}
+\contentsline {chapter}{\numberline {9}Conclusie}{34}{chapter.9}

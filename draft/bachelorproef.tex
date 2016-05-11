@@ -391,9 +391,22 @@ Ad blockers zoals AdBlock en Adblock Plus hebben op zichzelf geen functionalitei
 
 \subsection{Request blocking}
 \label{sec:Request blocking}
-De meeste content wordt geblokkeerd door request blocking waarbij ad blockers met behulp van de filters bepalen welke HTTP of HTTPS requesten onderschept moeten worden. De filters zijn opgebouwd uit eenvoudige regels.
-\\
-De meest eenvoudige filter die kan gedefinieerd kan worden is bijvoorbeeld voor deze reclameblok \texttt{http://voorbeeld.com/ads/banner123.jpg}. Je kan deze regel al makkelijk beter maken door alle banners te blokkeren \texttt{voorbeeld.com/ads/banner*.jpg} of nog beter\texttt{ http://voorbeeld.com/ads/*}. Standaard zullen ad blockers voor en na elke regel een wildcard \texttt{*} zetten. De filters \texttt{advertentie}, \texttt{ad} en \texttt{*ad*} zijn dan alle drie gelijk. Het is belangrijk hier rekening mee te houden wanneer men bijvoorbeeld alle flash bestanden wil blokkeren zou men de filter \texttt{swf} kunnen toepassen. Maar deze filter zal er ook voor zorgen dat \texttt{http://voorbeeld.com/swf/index.html} zal geblokkeerd worden. De oplossing voor dit probleem is het pipe sympool |, \texttt{swf|} zal enkel adressen blokkeren die eindigen met swf. Wanneer men zowel \texttt{\textbf{http://}voorbeeld.com/banner.jpg}, \texttt{\textbf{https://}voorbeeld.com/banner.jpg} als \texttt{\textbf{https://}voorbeeld.com/banner.jpg} geblokkeerd moeten worden kan men gebruik maken van het dubbele pipe symbool: ||. \texttt{||voorbeeld.com/banner.jpg} zal de drie voorgaande adressen blokkeren.
+De meeste content wordt geblokkeerd door request blocking waarbij ad blockers met behulp van de filters bepalen welke HTTP of HTTPS requesten onderschept moeten worden. De filters zijn opgebouwd uit eenvoudige regels. De meest eenvoudige filter die kan gedefinieerd kan worden is bijvoorbeeld voor deze reclameblok.
+\lstset{language=Html,tabsize=2}  
+\begin{lstlisting}
+http://voorbeeld.com/ads/banner123.jpg
+\end{lstlisting}
+Je kan deze regel al makkelijk beter maken door alle banners te blokkeren:
+\lstset{language=Html,tabsize=2}  
+\begin{lstlisting}
+ voorbeeld.com/ads/banner*.jpg 
+\end{lstlisting}
+ of nog beter:
+\lstset{language=Html,tabsize=2}  
+\begin{lstlisting}
+ http://voorbeeld.com/ads/*.
+\end{lstlisting}
+Standaard zullen ad blockers voor en na elke regel een wildcard \texttt{*} zetten. De filters \texttt{advertentie}, \texttt{ad} en \texttt{*ad*} zijn dan alle drie gelijk. Het is belangrijk hier rekening mee te houden wanneer men bijvoorbeeld alle flash bestanden wil blokkeren zou men de filter \texttt{swf} kunnen toepassen. Maar deze filter zal er ook voor zorgen dat \texttt{http://voorbeeld.com/swf/index.html} zal geblokkeerd worden. De oplossing voor dit probleem is het pipe sympool |, \texttt{swf|} zal enkel adressen blokkeren die eindigen met swf. 
 Naast de basis regels zijn er nog meer geavanceerde regels\footnote{\url{https://adblockplus.org/en/filters}} of kan er gewerkt worden met reguliere expressies. Het gebruik van reguliere expressies wordt sterk afgeraden omdat die de performantie naar omlaag halen.
 \\
 Wanneer filters die in de meeste gevallen goed werken toch adressen blokkeren die niet zouden mogen geblokkeerd worden dan kunnen uitzonderingen gebruikt worden. Als de filter \texttt{adv} gebruikt wordt en \texttt{http://voorbeeld.com/advice.html} mag niet geblokkeerd worden dan kan men als uitzondering \texttt{@@advice} gebruiken. Uitzonderingsregels verschillen voor de rest niet van de filter regels en kunnen dus op dezelfde manier samengesteld worden.
@@ -587,13 +600,23 @@ De grootste motieven voor mensen die zeker overwegen een ad blocker te installer
 
 \chapter{Huidige impact van ad blockers}
 \label{ch: Huidige impact van ad blockers}
-Veel advertentiebedrijven begrijpen de redenen voor gebruik van ad blockers namelijk: snelheid, privacy, beveiliging en een webpagina zonder afleidingen. Ze beginnen te begrijpen dat voor een internet met reclame, de reclame minder agressief en storend moet worden.
-\section{Impact op de internet gebruiker}
-\label{sec:Impact op de internet gebruiker}
+
 \section{Impact op de webpagina's}
 \label{sec:Impact op de webpagina's}
 Advertenties zorgen vaak voor een groot stuk van de inkomsten op webpagina's, sommige websites zijn zelfs volledig afhankelijk van advertenties voor hun inkomsten. De advertenties betalen voor de infrastructuur en betalen de mensen die instaan voor het onderhoud en de inhoud van een webpagina. Wereldwijd werd er in 2015 149.2 miljard dollar gespendeerd aan internet reclame. Het totale verlies aan reclame inkomsten door ad blockers bedroeg in 2015 21.88 miljard dollar \cite{PageFair2015}. Webpagina's lopen globaal gezien dus bijna 13\% van hun inkomsten mis door ad blockers. Uit interviews met verschillende content creators op YouTube en nieuws websites blijkt dat het verlies aan inkomsten oneven verdeeld is. Bij een Youtuber met de naam Driftor, die voornamelijk video's maakt die gerelateerd zijn aan videogames, loopt het verlies aan inkomsten soms op tot 45\%. Dit ligt in lijn met de onderzoeksresultaten uit hoofdstuk \ref{sec Spreiding over de verschillende content}, waaruit blijkt dat webpagina's met een grote focus op video games het grootste percentage ad block gebruikers hebben. Ook een andere Youtuber met de naam Barnacules Nerdgasm die video's maakt met een zeer technische inhoud en met onderwerpen zoals Bitcoins en 3D printing ziet meer dan 13\% van zijn inkomsten verloren gaan. Uit het interview met Barnacules blijkt dat hij 35\% van zijn doelpubliek een ad blocker gebruikt maar dat dit aantal al meer dan een jaar constant is doordat een groot stuk van zijn publiek overschakelt naar mobiele toestellen om zijn video's te bekijken. Doordat het gebruik van ad blockers op smartphones nog niet ingeburgerd is kan hij het verlies aan inkomsten door het stijgend aantal ad blockers op desktop compenseren.
-Uit een interview met Peter Soetens, directeur digitale nieuwsmedia van het Mediahuis, blijkt dat ook bij hen het verlies aan inkomsten meevalt door het steeds groter aandeel van mobiele bezoekers. Mediahuis is een Belgisch mediabedrijf dat naast kranten zoals De Standaard, Het Nieuwsblad en de Gentenaar ook websites zoals Jobat heeft. Dagelijks heeft Mediahuis 1.3 miljoen digitale bezoekers waarbij op desktop 18\% van de bezoekers een ad blocker gebruikt en op mobiel minder dan 1\% een ad blocker gebruikt. Peter Soetens wist te zeggen dat het gebruik van ad blockers zeker een zorg is maar zolang het gebruik bij mobiele gebruikers laag blijft, vormen ad blockers geen echte bedreiging voor Mediahuis.
+Uit een interview met Peter Soetens, directeur digitale nieuwsmedia van het Mediahuis, blijkt dat ook bij hen het verlies aan inkomsten meevalt door het steeds groter aandeel van mobiele bezoekers. Mediahuis is een Belgisch mediabedrijf dat naast kranten zoals De Standaard, Het Nieuwsblad en de Gentenaar ook websites zoals Jobat heeft. Dagelijks heeft Mediahuis 1.3 miljoen digitale bezoekers waarbij op desktop 18\% van de bezoekers een ad blocker gebruikt en op mobiel minder dan 1\% een ad blocker gebruikt. Peter Soetens wist te zeggen dat het gebruik van ad blockers zeker een zorg is maar zolang het gebruik bij mobiele toestellen laag blijft, vormen ad blockers geen echte bedreiging voor het Mediahuis.
+\section{Impact op de adverteerders}
+\label{sec:Impact op de adverteerders}
+De meeste adverteerders betalen per impressie of per doorklik en betalen dus geen op voorhand vastgestelde som. Dit betekend dat voor advertenties, die niet gezien worden door ad block gebruikers, niet betaald hoeft te worden. Adverteerders bereiken dus een kleiner publiek maar betalen ook minder. Een groter nadeel voor adverteerders is dat ze van minder mensen data kunnen verzamelen en daardoor minder efficiënt reclame kunnen maken.
+Door dat de webpagina's hun advertentie ruimte rapper opgevuld krijgen en ze bezoekers niet nog meer in de armen van ad blockers willen duwen, zijn webpagina's 
+kritischer geworden over de kwaliteit van advertenties. Adverteerders moeten dus de kwaliteit van hun advertenties beter maken.
+\section{Impact op de internet gebruiker}
+\label{sec:Impact op de internet gebruiker}
+In de tijd voor ad blockers hadden webpagina's het moeilijk om genoeg advertenties te voorzien om voor elke bezoeker alle advertentieruimte op te vullen. Zelfs met de komst van reclame en exchange netwerken werd de volledige reclame ruimte voor elke gebruiker zelden benut. Voor de gebruikers betekende dit vooral dat ze minder reclame zagen. Maar door de komst van ad blockers wordt het aantal bezoekers die reclame ziet kleiner en wordt het voor webpagina's eenvoudiger om alle ruimte voor elke gebruiker op te vullen. Dit heeft als gevolg dat gebruikers die nog geen ad blocker gebruiken meer advertenties zien wat dan opnieuw als gevolg heeft dat deze gebruikers meer geneigd zullen zijn om een ad blocker aan te schaffen, men kan dus spreken van een soort vicieuze cirkel waar men in terecht komt. Peter Soetens kon ook vertellen dat door het gebruik van ad blockers, de mensen die geen ad blocker gebruiken een groter aanbod aan reclame voorgeschoteld krijgen.
+
+\section{Conclusie}
+\label{sec Conclusie}
+Veel advertentiebedrijven begrijpen de redenen voor gebruik van ad blockers namelijk: snelheid, privacy, beveiliging en een webpagina zonder afleidingen. Ze beginnen te begrijpen dat voor een internet met reclame, de reclame minder agressief en storend moet worden.
 
 
 \chapter{Hoe wapenen bedrijven zich tegen ad blockers}

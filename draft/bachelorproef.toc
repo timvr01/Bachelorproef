@@ -40,8 +40,10 @@
 \contentsline {subsection}{\numberline {5.3.5}Laadsnelheid en bandbreedte}{26}{subsection.5.3.5}
 \contentsline {subsection}{\numberline {5.3.6}Conclusie}{28}{subsection.5.3.6}
 \contentsline {chapter}{\numberline {6}Huidige impact van ad blockers}{29}{chapter.6}
-\contentsline {section}{\numberline {6.1}Impact op de internet gebruiker}{29}{section.6.1}
-\contentsline {section}{\numberline {6.2}Impact op de webpagina's}{29}{section.6.2}
+\contentsline {section}{\numberline {6.1}Impact op de webpagina's}{29}{section.6.1}
+\contentsline {section}{\numberline {6.2}Impact op de adverteerders}{30}{section.6.2}
+\contentsline {section}{\numberline {6.3}Impact op de internet gebruiker}{30}{section.6.3}
+\contentsline {section}{\numberline {6.4}Conclusie}{30}{section.6.4}
 \contentsline {chapter}{\numberline {7}Hoe wapenen bedrijven zich tegen ad blockers}{31}{chapter.7}
 \contentsline {section}{\numberline {7.1}De verschillende mogelijkheden}{31}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Blokkeren van ad block gebruikers}{32}{subsection.7.1.1}

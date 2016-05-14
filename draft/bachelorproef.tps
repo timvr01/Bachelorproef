@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=bachelorproef.tex
 
 [Frame0_View0,0]
-TopLine=877
-Cursor=58262
+TopLine=220
+Cursor=8544
 
 [Frame1]
 Flags=0
@@ -35,8 +35,8 @@ Class=BibTeXView
 Document=tin-bachproef.bib
 
 [Frame1_View0,0]
-TopLine=69
-Cursor=2577
+TopLine=71
+Cursor=1294
 
 [SessionInfo]
 FrameCount=2

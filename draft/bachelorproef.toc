@@ -1,59 +1,67 @@
 \select@language {dutch}
-\contentsline {chapter}{\numberline {1}Inleiding}{5}{chapter.1}
-\contentsline {section}{\numberline {1.1}Probleemstelling en Onderzoeksvragen}{5}{section.1.1}
-\contentsline {chapter}{\numberline {2}Methodologie}{6}{chapter.2}
-\contentsline {chapter}{\numberline {3}Internet en publiciteit}{7}{chapter.3}
-\contentsline {section}{\numberline {3.1}Evolutie van reclame}{7}{section.3.1}
-\contentsline {section}{\numberline {3.2}Soorten reclame}{8}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Banner en display advertising }{8}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Google search reclame }{9}{subsection.3.2.2}
-\contentsline {subsection}{\numberline {3.2.3}Retargeting advertenties }{9}{subsection.3.2.3}
-\contentsline {subsection}{\numberline {3.2.4}Sociale media advertenties }{10}{subsection.3.2.4}
-\contentsline {section}{\numberline {3.3}Reclame netwerken}{10}{section.3.3}
-\contentsline {section}{\numberline {3.4}Inkomsten uit reclame}{11}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Conclusie en vooruitzichten }{12}{subsection.3.4.1}
-\contentsline {chapter}{\numberline {4}De Ad blockers}{14}{chapter.4}
-\contentsline {section}{\numberline {4.1}Aanbieders}{14}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Adblock Plus}{14}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}AdBlock}{15}{subsection.4.1.2}
-\contentsline {subsection}{\numberline {4.1.3}\IeC {\textmu }Block Origin}{15}{subsection.4.1.3}
-\contentsline {subsection}{\numberline {4.1.4}Ghostery}{15}{subsection.4.1.4}
-\contentsline {subsection}{\numberline {4.1.5}Brave}{15}{subsection.4.1.5}
-\contentsline {section}{\numberline {4.2}Werking van ad blockers}{16}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Request blocking}{16}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2} Element hidding}{17}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Business model}{17}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1} Accepteable ad's program}{18}{subsection.4.3.1}
-\contentsline {chapter}{\numberline {5}Evolutie gebruik Ad blockers}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}Groei}{19}{section.5.1}
-\contentsline {section}{\numberline {5.2}Spreiding}{20}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Demografische spreiding}{20}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Geografische spreiding}{20}{subsection.5.2.2}
-\contentsline {subsection}{\numberline {5.2.3}Spreiding over de verschillende browsers}{21}{subsection.5.2.3}
-\contentsline {subsection}{\numberline {5.2.4}Spreiding over de verschillende content}{22}{subsection.5.2.4}
-\contentsline {subsection}{\numberline {5.2.5}Mobiel gebruik van ad blockers}{23}{subsection.5.2.5}
-\contentsline {subsection}{\numberline {5.2.6}Conclusie}{24}{subsection.5.2.6}
-\contentsline {section}{\numberline {5.3}Redenen voor gebruik ad blocker}{25}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Reclame}{25}{subsection.5.3.1}
-\contentsline {subsection}{\numberline {5.3.2}Click bait}{26}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Tracking/privacy}{26}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Beveiliging}{26}{subsection.5.3.4}
-\contentsline {subsection}{\numberline {5.3.5}Laadsnelheid en bandbreedte}{27}{subsection.5.3.5}
-\contentsline {subsection}{\numberline {5.3.6}Conclusie}{28}{subsection.5.3.6}
-\contentsline {chapter}{\numberline {6}Impact van ad blockers}{29}{chapter.6}
-\contentsline {section}{\numberline {6.1}Impact op de webpagina's}{29}{section.6.1}
-\contentsline {section}{\numberline {6.2}Impact op de adverteerders}{30}{section.6.2}
-\contentsline {section}{\numberline {6.3}Impact op de internet gebruiker}{30}{section.6.3}
-\contentsline {section}{\numberline {6.4}Impact op de advertenties}{30}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Het L.E.A.N. advertentie programma}{31}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Het acceptabele advertentie manifesto}{31}{subsection.6.4.2}
-\contentsline {section}{\numberline {6.5}Conclusie}{32}{section.6.5}
-\contentsline {chapter}{\numberline {7}Hoe wapenen bedrijven zich tegen ad blockers}{33}{chapter.7}
-\contentsline {section}{\numberline {7.1}Blokkeren van ad block gebruikers}{34}{section.7.1}
-\contentsline {section}{\numberline {7.2}Gebruik maken van een paywall}{34}{section.7.2}
-\contentsline {section}{\numberline {7.3}Donaties vragen}{36}{section.7.3}
-\contentsline {section}{\numberline {7.4}Gesponsorde content en affiliate marketing}{36}{section.7.4}
-\contentsline {section}{\numberline {7.5}Native adverteren}{36}{section.7.5}
-\contentsline {chapter}{\numberline {8}Wetgevingen en rechtzaken rond ad blockers}{38}{chapter.8}
-\contentsline {section}{\numberline {8.1}Rechtszaken}{39}{section.8.1}
-\contentsline {chapter}{\numberline {9}Conclusie}{41}{chapter.9}
+\contentsline {chapter}{\numberline {1}Inleiding}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}Probleemstelling en Onderzoeksvragen}{7}{section.1.1}
+\contentsline {chapter}{\numberline {2}Methodologie}{8}{chapter.2}
+\contentsline {section}{\numberline {2.1}Internet en publiciteit}{8}{section.2.1}
+\contentsline {section}{\numberline {2.2}De ad blockers}{8}{section.2.2}
+\contentsline {section}{\numberline {2.3}Evolutie gebruik Ad blockers}{8}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Laadsnelheid van ad blockers}{8}{subsection.2.3.1}
+\contentsline {section}{\numberline {2.4}Impact van ad blockers}{9}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Interviews met internet-inhoudsaanbieders}{9}{subsection.2.4.1}
+\contentsline {section}{\numberline {2.5}Hoe wapenen bedrijven zich tegen ad blockers}{10}{section.2.5}
+\contentsline {section}{\numberline {2.6}Wetgevingen en rechtszaken rond ad blockers}{10}{section.2.6}
+\contentsline {chapter}{\numberline {3}Internet en publiciteit}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Evolutie van reclame}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}Soorten reclame}{12}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Banner en display advertising }{12}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Google search reclame }{13}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Retargeting advertenties }{13}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Sociale media advertenties }{14}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Reclame netwerken}{14}{section.3.3}
+\contentsline {section}{\numberline {3.4}Inkomsten uit reclame}{15}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Conclusie en vooruitzichten }{16}{subsection.3.4.1}
+\contentsline {chapter}{\numberline {4}De Ad blockers}{18}{chapter.4}
+\contentsline {section}{\numberline {4.1}Aanbieders}{18}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Adblock Plus}{18}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}AdBlock}{19}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}\IeC {\textmu }Block Origin}{19}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Ghostery}{19}{subsection.4.1.4}
+\contentsline {subsection}{\numberline {4.1.5}Brave}{19}{subsection.4.1.5}
+\contentsline {section}{\numberline {4.2}Werking van ad blockers}{20}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Request blocking}{20}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2} Element hidding}{21}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Business model}{21}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1} Accepteable ad's program}{22}{subsection.4.3.1}
+\contentsline {chapter}{\numberline {5}Evolutie gebruik Ad blockers}{24}{chapter.5}
+\contentsline {section}{\numberline {5.1}Groei}{24}{section.5.1}
+\contentsline {section}{\numberline {5.2}Spreiding}{25}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Demografische spreiding}{25}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Geografische spreiding}{25}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Spreiding over de verschillende browsers}{25}{subsection.5.2.3}
+\contentsline {subsection}{\numberline {5.2.4}Spreiding over de verschillende content}{27}{subsection.5.2.4}
+\contentsline {subsection}{\numberline {5.2.5}Mobiel gebruik van ad blockers}{28}{subsection.5.2.5}
+\contentsline {subsection}{\numberline {5.2.6}Conclusie}{30}{subsection.5.2.6}
+\contentsline {section}{\numberline {5.3}Redenen voor gebruik ad blocker}{30}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Reclame}{30}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}Click bait}{30}{subsection.5.3.2}
+\contentsline {subsection}{\numberline {5.3.3}Tracking/privacy}{31}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Beveiliging}{31}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.5}Laadsnelheid en bandbreedte}{32}{subsection.5.3.5}
+\contentsline {subsection}{\numberline {5.3.6}Conclusie}{33}{subsection.5.3.6}
+\contentsline {chapter}{\numberline {6}Impact van ad blockers}{34}{chapter.6}
+\contentsline {section}{\numberline {6.1}Impact op de websites}{34}{section.6.1}
+\contentsline {section}{\numberline {6.2}Impact op de adverteerders}{35}{section.6.2}
+\contentsline {section}{\numberline {6.3}Impact op de internet gebruiker}{35}{section.6.3}
+\contentsline {section}{\numberline {6.4}Impact op de advertenties}{35}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Het L.E.A.N. advertentie programma}{36}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Het acceptabele advertentie manifesto}{36}{subsection.6.4.2}
+\contentsline {section}{\numberline {6.5}Conclusie}{37}{section.6.5}
+\contentsline {chapter}{\numberline {7}Hoe wapenen bedrijven zich tegen ad blockers}{38}{chapter.7}
+\contentsline {section}{\numberline {7.1}Blokkeren van ad block gebruikers}{39}{section.7.1}
+\contentsline {section}{\numberline {7.2}Gebruik maken van een paywall}{39}{section.7.2}
+\contentsline {section}{\numberline {7.3}Donaties vragen}{41}{section.7.3}
+\contentsline {section}{\numberline {7.4}Gesponsorde content en Affiliate marketing}{41}{section.7.4}
+\contentsline {section}{\numberline {7.5}Native adverteren}{41}{section.7.5}
+\contentsline {chapter}{\numberline {8}Wetgevingen en rechtszaken rond ad blockers}{43}{chapter.8}
+\contentsline {section}{\numberline {8.1}Rechtszaken}{44}{section.8.1}
+\contentsline {chapter}{\numberline {9}Conclusie}{46}{chapter.9}

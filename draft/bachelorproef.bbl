@@ -2,70 +2,88 @@
 
 \bibitem[\protect\astroncite{Chaffey}{2016}]{Chaffey2016}
 Chaffey, D. (2016).
-\newblock {Display advertising clickthrough rates }.
+\newblock {Display advertising clickthrough rates}.
 \newblock {\em smartinsights}.
-\newblock Online, accessed 16 March 2016.
+\newblock Online, accessed 16 March 2016,
+  smartinsights.com/internet-advertising/internet-advertising-analytics/display-advertising-clickthrough-rates/.
 
 \bibitem[\protect\astroncite{eMarketer}{2016}]{EMarketer2016}
 eMarketer, E. (2016).
 \newblock Digital ad spending to surpass tv next year.
 \newblock {\em eMarketer}.
-\newblock Online, accessed 28 March 2016.
+\newblock Online, accessed 28 March 2016,
+  emarketer.com/Article/Digital-Ad-Spending-Surpass-TV-Next-Year/1013671.
 
 \bibitem[\protect\astroncite{Firefoxcvp}{2015}]{PerformanceAB}
 Firefoxcvp (2015).
 \newblock Best ad blocker tested for performance.
-\newblock accessed 12 March 2016.
+\newblock Online, accessed 12 March 2016,
+  firefoxcvp.com/best-ad-blocker-tested-for-performance/.
 
 \bibitem[\protect\astroncite{Friend}{2014}]{IAB2014}
 Friend, B. (2014).
 \newblock Iab ad blocking study.
 \newblock {\em IAB}.
-\newblock Online, accessed 20 April 2016.
+\newblock Online, accessed 20 April 2016,
+  iabuk.net/about/press/archive/iab-uk-reveals-latest-ad-blocking-behaviour.
 
 \bibitem[\protect\astroncite{Hobbs}{2015}]{pwc2015}
 Hobbs, M. (2015).
 \newblock internet-advertising insights.
 \newblock {\em pwc}.
-\newblock Online, accessed 16 March 2016.
+\newblock Online, accessed 16 March 2016,
+  pwc.com/gx/en/industries/entertainment-media/outlook/segment-insights/internet-advertising.html.
 
 \bibitem[\protect\astroncite{Hoelzel}{2016}]{BI-Insider2016}
 Hoelzel, M. (2016).
 \newblock The us digital media ad spend report.
 \newblock {\em Business Insider, UK}.
-\newblock Online, accessed 16 March 2016.
+\newblock Online, accessed 16 March 2016,
+  businessinsider.com/intelligence/THE-US-DIGITAL-MEDIA-AD-SPEND-REPORT/p/52319339/category=11987293.
+
+\bibitem[\protect\astroncite{IABNL}{2015}]{IABNL2015}
+IABNL (2015).
+\newblock The cost of mobile ads on news websites.
+\newblock {\em IAB}.
+\newblock Online, accessed 24 20 April 2016,
+  iab.nl/downloads/adblockers-onderzoek/.
 
 \bibitem[\protect\astroncite{KELLER}{2015}]{nytimes2015}
 KELLER, G. A. W.~A. (2015).
 \newblock The cost of mobile ads on news websites.
 \newblock {\em IAB}.
-\newblock Online, accessed 24 20 April 2016.
+\newblock Online, accessed 24 20 April 2016,
+  nytimes.com/interactive/2015/10/01/business/cost-of-mobile-ads.html.
 
 \bibitem[\protect\astroncite{Malcolm}{2015}]{Fraser2015}
 Malcolm, T. (2015).
 \newblock {\em Adblock Plus Efficacy Study}.
 \newblock Simon Frazer University.
-\newblock Online, accessed 20 April 2016.
+\newblock Online, accessed 20 April 2016,
+  sfu.ca/snfchs/snf-new-media-lab/Adblock.html.
 
 \bibitem[\protect\astroncite{PageFairTeam}{2014}]{PageFair2014}
 PageFairTeam (2014).
 \newblock The adblocking-report.
-\newblock Online, accessed 01 March 2016.
+\newblock Online, accessed 01 March 2016,
+  blog.pagefair.com/2014/adblocking-report/.
 
 \bibitem[\protect\astroncite{PageFairTeam}{2015}]{PageFair2015}
 PageFairTeam (2015).
 \newblock The cost of ad blocking.
-\newblock Online, accessed 01 March 2016.
+\newblock Online, accessed 01 March 2016,
+  blog.pagefair.com/2015/ad-blocking-report.
 
 \bibitem[\protect\astroncite{Silverman}{2015}]{Silverman2015}
 Silverman, D. (2015).
 \newblock {\em Internet Advertising Revenue Report}.
 \newblock Internet Advertising Bureau.
-\newblock Online, accessed 16 March 2016.
+\newblock Online, accessed 16 March 2016, iab.com/wp-content/uploads/2015/10/.
 
 \bibitem[\protect\astroncite{Wilson}{2013}]{ShareThrough2013}
 Wilson, E. (2013).
 \newblock Native ads vs. display ads.
-\newblock Online, accessed 14 April 2016.
+\newblock Online, accessed 14 April 2016,
+  magnetmediafilms.com/blog/infographic-native-ads-vs-display-ads-and-how-mobile-fits-in.
 
 \end{thebibliography}
